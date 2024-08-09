@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #191d28;
+    font-family: "Oswald", sans-serif;
+  }
+  select,
+  option {
+    color: white;
+    /* height: 40px; */
+    background-color: white;
+  }
+  select {
+    background-color: #2e3241;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  .dropdown-menu .dropdown-item {
+    background-color: white;
+  }
+  .dropdown {
+    margin-left: 20px;
+  }
+  .dropdown-item:hover {
+    background-color: #90cbff;
+  }
+  .telegram-btn {
+    background-color: #3dc6c1;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .option {
+    margin-left: 200px;
+  }
+  .timer-circle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #3dc6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px; /* Added margin-right for spacing */
+  }
+  .right-nav {
+    margin-left: 10px; /* Added margin-left for spacing */
+  }
+  header {
+    margin-bottom: -16px; /* Remove bottom margin */
+  }
+  .hero-main {
+ 
+  }
+  .hero {
+    height: 110px;
+    text-align: center;
+  }
+  .hero .hero-list {
+    font-size: 50px;
+    color: #3dc6c1;
+  }
+  .learn-basic {
+    margin-bottom: 0px; /* Remove bottom margin */
+  }
+  .list {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .home-footer {
+    width: 100vw;
+    height: 47px;
+    bottom: 0;
+    margin-top: 15px;
+    background-color: #191d28;
+    text-align: center;
+  }
+  .home-btn {
+    color: #3dc6c1;
+    border: 2px solid #3dc6c1;
+    background-color: transparent;
+    padding: .5rem 1rem; /* Increased padding for a bigger button */
+    font-size: 1.25rem; /* Increased font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for a smoother effect */
+}
+
+.home-btn:hover {
+    background-color: #3dc6c1; /* Add a hover effect for better interactivity */
+    color: #191d28;
+}
+.table {
+  margin-bottom: 80px; /* Adjust this value to match the footer height */
+}
+
+th, td {
+  padding: 8px; 
+  text-align: center; 
+  color: white; 
+  border-bottom: 1px solid #3dc6c1; 
+
+}
+
+  /* Footer Styles */
+footer {
+ 
+  width: 100%;
+  text-align: center;
+  padding: .4rem;
+  background-color: #191d28;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000; /* Ensure the footer is above other content */
+}
+
+#crypto-table-body{
+  margin-bottom: 10px;
+}
+
+#toggleSwitch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom styling for the toggle switch */
+.form-check.form-switch .form-check-input {
+  
+  width: 3rem; /* Adjust width as needed */
+  height: 1.85rem; /* Adjust height as needed */
+  cursor: pointer;
+}
+
+
+
+.form-check.form-switch .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(61, 198, 193, 0.25); /* Adjust shadow color to match your theme */
+  background-color: #2e3241;
+}
+
+.form-check.form-switch .form-check-label {
+  
+  margin-left: 0.75rem; /* Adjust spacing as needed */
+  line-height: 1.85rem; /* Align label text with switch */
+}
+
+/* Optional: Style the slider */
+.form-check.form-switch .form-check-input:checked::before {
+  background-color: #fff;
+  /* Color of the slider knob when checked */
+}
+
+/* Adjust the slider's position */
+.form-check.form-switch .form-check-input::before {
+  width: 1.5rem; /* Adjust knob size */
+  height: 1.5rem; /* Adjust knob size */
+  left: 0.125rem; /* Position of the knob */
+  background-color: #3dc6c1;
+}
+
+  /* When the switch is checked (ON state) */
+  input:checked + .slider {
+    background-color: #2e3241;;
+}
+.hero-main{
+  margin: 0;
+}
+
+.form-check-input {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .form-check-input:checked {
+    background-color: #2e3241; /* Desired color when switch is on */
+  }
+
+  .form-check-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #081515; /* Glow effect when the switch is focused */
+  }
+
+  .form-check-label {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .form-check-input:checked:focus {
+    box-shadow: 0 0 5px #3dc6c1; /* Glow effect when the switch is on and focused */
+  }
